@@ -1,0 +1,284 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 9vw;
+  background-color: darkgreen;
+  margin: 0;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header > div {
+  display: flex;
+  margin-left: 5vw;
+}
+header > div > img {
+  width: 3vw;
+  height: auto;
+}
+header > hr {
+  width: 90vw;
+  margin-left: 5vw;
+}
+h1 {
+  margin: 0;
+  padding: 1vw;
+  padding-top: 1.3vw;
+  color: white;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  width: 90vw;
+  height: 5vw;
+  margin-left: 5vw;
+  position: relative;
+  display: inline-flex;
+  justify-content: space-around;
+}
+nav > a {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+nav > a:hover {
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+.gramas > img {
+  width: 70vw;
+  height: auto;
+  margin-left: 15vw;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+}
+.linhas {
+  width: 90vw;
+  height: auto;
+  margin-left: 5vw;
+}
+.linhas > p {
+  text-align: justify;
+  font-size: 1.5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.chegarh2 {
+  text-align: center;
+  width: 100vw;
+  padding-top: 1.3vw;
+  color: black;
+  margin: 0;
+  margin-bottom: 1vw;
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gramasch > img {
+  width: 90vw;
+  height: auto;
+  margin-left: 5vw;
+  margin-bottom: 1vw;
+  border-radius: 10px;
+}
+.chegarh3 {
+  width: 100vw;
+  padding-top: 1.3vw;
+  color: black;
+  margin-left: 5vw;
+  font-size: 2vw;
+  font-family: "Times New Roman", Times, serif;
+}
+.linhas > img {
+  width: 70vw;
+  margin-left: 10vw;
+}
+fieldset {
+  border: 2px solid #a6d48c;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+legend {
+  font-size: 24px;
+  color: #acd48c;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #94d48c;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8cd4b0;
+  border-radius: 5px;
+  background-color: #e3f7e6;
+  color: #333;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+  background-color: #8cd492;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+button[type="reset"] {
+  background-color: #78b37d;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #78b37d;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vw;
+    height: 15vw;
+    background-color: darkgreen;
+    margin: 0;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  header > div {
+    display: flex;
+    margin-left: 5vw;
+  }
+  header > div > img {
+    width: 3vw;
+    height: 6vw;
+  }
+  header > hr {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  h1 {
+    margin: 0;
+    padding: 1vw;
+    font-size: 4vw;
+    padding-top: 1.3vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  hr {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    width: 90vw;
+    height: 5vw;
+    margin-left: 5vw;
+    margin-top: -2vw;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  nav > a {
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: -2vw;
+  }
+  nav > a:hover {
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+  }
+  .gramas > img {
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+  }
+  .linhas {
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+  }
+  .linhas > p {
+    text-align: justify;
+    font-size: 3.5vw;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .chegarh2 {
+    text-align: center;
+    width: 100vw;
+    padding-top: 1.3vw;
+    color: black;
+    margin: 0;
+    margin-bottom: 1vw;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .gramasch > img {
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+  }
+  .chegarh3 {
+    width: 100vw;
+    padding-top: 1.3vw;
+    color: black;
+    margin-left: 5vw;
+    font-size: 4vw;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .linhas > img {
+    width: 70vw;
+    margin-left: 10vw;
+  }
+  form {
+    width: 90vw;
+  }
+  fieldset {
+    margin-top: 3vw;
+  }
+  input {
+    width: 90vw;
+    margin-bottom: 1vw;
+  }
+}
